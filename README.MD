@@ -16,6 +16,7 @@ allure generate reports
 
 用火狐浏览器打开,chrome会404
 ```
+![image](pytest_allure.png)
 
 
 # 学习笔记
