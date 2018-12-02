@@ -1,0 +1,7 @@
+[
+  {"name":"jack","password":"Iloverose"},
+  {"name":"rose","password":"Ilovejack"},
+  {"name":"tom","password":"password123"},
+  {"name":"mike","password":"password"},
+  {"name":"james","password":"AGoodPasswordWordShouldBeLongEnough"}
+]

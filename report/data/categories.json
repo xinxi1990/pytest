@@ -1,0 +1,109 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 4 == 5\n +  where 4 = inc(3)",
+      "children" : [ {
+        "name" : "test_answer",
+        "uid" : "edfe01fdb2d1b2a7",
+        "parentUid" : "1771e873c640f03d453fc668387161d5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1543562286086,
+          "stop" : 1543562286134,
+          "duration" : 48
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_answer",
+        "uid" : "b1b46f1d4cf446c5",
+        "parentUid" : "1771e873c640f03d453fc668387161d5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1543562292261,
+          "stop" : 1543562292266,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1771e873c640f03d453fc668387161d5"
+    }, {
+      "name" : "AssertionError: user tom has a weak password\nassert 'password123' != 'password123'",
+      "children" : [ {
+        "name" : "TestUserPasswordWithParam.test_user_password[user2]",
+        "uid" : "941a6fc4f788bd9f",
+        "parentUid" : "940208690664d1df1f1ec83afb74e787",
+        "status" : "failed",
+        "time" : {
+          "start" : 1543562286144,
+          "stop" : 1543562286147,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestUserPasswordWithParam.test_user_password[user2]",
+        "uid" : "391a3a1a79e371a6",
+        "parentUid" : "940208690664d1df1f1ec83afb74e787",
+        "status" : "failed",
+        "time" : {
+          "start" : 1543562292133,
+          "stop" : 1543562292144,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "940208690664d1df1f1ec83afb74e787"
+    }, {
+      "name" : "AssertionError: user mike has a weak password\nassert 'password' != 'password'",
+      "children" : [ {
+        "name" : "TestUserPasswordWithParam.test_user_password[user3]",
+        "uid" : "459d323917df7f4f",
+        "parentUid" : "e0334cc4cc53a6feb1c05caf73f1fe53",
+        "status" : "failed",
+        "time" : {
+          "start" : 1543562286149,
+          "stop" : 1543562286151,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestUserPasswordWithParam.test_user_password[user3]",
+        "uid" : "d8fea8ddce8a1d6",
+        "parentUid" : "e0334cc4cc53a6feb1c05caf73f1fe53",
+        "status" : "failed",
+        "time" : {
+          "start" : 1543562292150,
+          "stop" : 1543562292164,
+          "duration" : 14
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e0334cc4cc53a6feb1c05caf73f1fe53"
+    }, {
+      "name" : "AssertionError: assert 54 == 42\n +  where 54 = eval('6*9')",
+      "children" : [ {
+        "name" : "test_eval[6*9-42]",
+        "uid" : "3d9808b33e42b55a",
+        "parentUid" : "a3aaaf10d97ef4478475fc83cbc6133f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1543562292242,
+          "stop" : 1543562292253,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a3aaaf10d97ef4478475fc83cbc6133f"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

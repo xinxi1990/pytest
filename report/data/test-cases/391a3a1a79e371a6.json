@@ -1,0 +1,84 @@
+{
+  "uid" : "391a3a1a79e371a6",
+  "name" : "TestUserPasswordWithParam.test_user_password[user2]",
+  "fullName" : "test_moredata.TestUserPasswordWithParam.test_user_password[user2]",
+  "historyId" : "42aee8dd3fbf5955ee2e26665346265d",
+  "time" : {
+    "start" : 1543562292133,
+    "stop" : 1543562292144,
+    "duration" : 11
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: user tom has a weak password\nassert 'password123' != 'password123'",
+  "statusTrace" : "self = <test_moredata.TestUserPasswordWithParam object at 0x104d68190>\nuser = {'name': 'tom', 'password': 'password123'}\n\n    def test_user_password(self, user):\n        passwd = user['password']\n        print \"passwd is:{}\".format(passwd)\n        assert len(passwd) >= 6\n        msg = \"user %s has a weak password\" %(user['name'])\n        assert passwd != 'password', msg\n>       assert passwd != 'password123', msg\nE       AssertionError: user tom has a weak password\nE       assert 'password123' != 'password123'\n\ntest_moredata.py:19: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: user tom has a weak password\nassert 'password123' != 'password123'",
+    "statusTrace" : "self = <test_moredata.TestUserPasswordWithParam object at 0x104d68190>\nuser = {'name': 'tom', 'password': 'password123'}\n\n    def test_user_password(self, user):\n        passwd = user['password']\n        print \"passwd is:{}\".format(passwd)\n        assert len(passwd) >= 6\n        msg = \"user %s has a weak password\" %(user['name'])\n        assert passwd != 'password', msg\n>       assert passwd != 'password123', msg\nE       AssertionError: user tom has a weak password\nE       assert 'password123' != 'password123'\n\ntest_moredata.py:19: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cd8b53a6540ef86c",
+      "name" : "Captured stdout call",
+      "source" : "cd8b53a6540ef86c.txt",
+      "type" : "text/plain",
+      "size" : 22
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "bogon"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "6821-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_moredata"
+  }, {
+    "name" : "testClass",
+    "value" : "test_moredata"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestUserPasswordWithParam.test_user_password[user2]"
+  }, {
+    "name" : "package",
+    "value" : "test_moredata"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "391a3a1a79e371a6.json",
+  "parameterValues" : [ ]
+}

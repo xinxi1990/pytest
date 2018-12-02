@@ -1,0 +1,111 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1543562292119" stop="1543562292213">
+  <name>test_moredata</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1543562292119" status="passed" stop="1543562292123">
+      <name>TestUserPasswordWithParam.test_user_password[user0]</name>
+      <attachments>
+        <attachment source="3fe9ec0b-79f8-4b15-b4da-ac742edd3017-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6821-MainThread"/>
+        <label name="host" value="bogon"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1543562292126" status="passed" stop="1543562292129">
+      <name>TestUserPasswordWithParam.test_user_password[user1]</name>
+      <attachments>
+        <attachment source="986b1769-d797-4250-aa75-64f1f528f6af-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6821-MainThread"/>
+        <label name="host" value="bogon"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1543562292133" status="failed" stop="1543562292144">
+      <name>TestUserPasswordWithParam.test_user_password[user2]</name>
+      <failure>
+        <message>AssertionError: user tom has a weak password
+assert 'password123' != 'password123'</message>
+        <stack-trace>self = &lt;test_moredata.TestUserPasswordWithParam object at 0x104d68190&gt;
+user = {'name': 'tom', 'password': 'password123'}
+
+    def test_user_password(self, user):
+        passwd = user['password']
+        print "passwd is:{}".format(passwd)
+        assert len(passwd) &gt;= 6
+        msg = "user %s has a weak password" %(user['name'])
+        assert passwd != 'password', msg
+&gt;       assert passwd != 'password123', msg
+E       AssertionError: user tom has a weak password
+E       assert 'password123' != 'password123'
+
+test_moredata.py:19: AssertionError</stack-trace>
+      </failure>
+      <attachments>
+        <attachment source="5c2001c6-d473-4470-b5f7-c1a333c3e873-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6821-MainThread"/>
+        <label name="host" value="bogon"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1543562292150" status="failed" stop="1543562292164">
+      <name>TestUserPasswordWithParam.test_user_password[user3]</name>
+      <failure>
+        <message>AssertionError: user mike has a weak password
+assert 'password' != 'password'</message>
+        <stack-trace>self = &lt;test_moredata.TestUserPasswordWithParam object at 0x104d68810&gt;
+user = {'name': 'mike', 'password': 'password'}
+
+    def test_user_password(self, user):
+        passwd = user['password']
+        print "passwd is:{}".format(passwd)
+        assert len(passwd) &gt;= 6
+        msg = "user %s has a weak password" %(user['name'])
+&gt;       assert passwd != 'password', msg
+E       AssertionError: user mike has a weak password
+E       assert 'password' != 'password'
+
+test_moredata.py:18: AssertionError</stack-trace>
+      </failure>
+      <attachments>
+        <attachment source="08e2afe8-4b5b-4a82-bfa1-fed3080f5c1c-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6821-MainThread"/>
+        <label name="host" value="bogon"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1543562292210" status="passed" stop="1543562292213">
+      <name>TestUserPasswordWithParam.test_user_password[user4]</name>
+      <attachments>
+        <attachment source="3ad62f72-0493-4246-adb5-bd5672ee8edc-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6821-MainThread"/>
+        <label name="host" value="bogon"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

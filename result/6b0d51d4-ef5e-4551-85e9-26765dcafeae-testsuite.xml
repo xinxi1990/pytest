@@ -1,0 +1,62 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1543562292217" stop="1543562292253">
+  <description>
+演示参数化多个参数
+</description>
+  <name>test_parametrize</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1543562292217" status="passed" stop="1543562292223">
+      <name>test_eval[3+5-8]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6821-MainThread"/>
+        <label name="host" value="bogon"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1543562292236" status="passed" stop="1543562292239">
+      <name>test_eval[2+4-6]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6821-MainThread"/>
+        <label name="host" value="bogon"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1543562292242" status="failed" stop="1543562292253">
+      <name>test_eval[6*9-42]</name>
+      <failure>
+        <message>AssertionError: assert 54 == 42
+ +  where 54 = eval('6*9')</message>
+        <stack-trace>test_input = '6*9', expected = 42
+
+    @pytest.mark.parametrize("test_input,expected", [
+        ("3+5", 8),
+        ("2+4", 6),
+        ("6*9", 42),
+    ])
+    def test_eval(test_input, expected):
+&gt;       assert eval(test_input) == expected
+E       AssertionError: assert 54 == 42
+E        +  where 54 = eval('6*9')
+
+test_parametrize.py:16: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6821-MainThread"/>
+        <label name="host" value="bogon"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

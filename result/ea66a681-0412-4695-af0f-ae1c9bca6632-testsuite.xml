@@ -1,0 +1,28 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1543562286086" stop="1543562286134">
+  <name>sample_test</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1543562286086" status="failed" stop="1543562286134">
+      <name>test_answer</name>
+      <failure>
+        <message>AssertionError: assert 4 == 5
+ +  where 4 = inc(3)</message>
+        <stack-trace>def test_answer():
+&gt;       assert inc(3) == 5
+E       assert 4 == 5
+E        +  where 4 = inc(3)
+
+sample_test.py:10: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6821-MainThread"/>
+        <label name="host" value="bogon"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

@@ -1,0 +1,41 @@
+[2018-12-01 23:49:35,683] [INFO] [localhost][test_appium.py - line:106] app测试开始!
+[2018-12-01 23:50:09,696] [INFO] [localhost][test_appium.py - line:106] app测试开始!
+[2018-12-01 23:50:16,592] [INFO] [localhost][test_appium.py - line:106] app测试开始!
+[2018-12-01 23:50:16,657] [INFO] [localhost][test_appium.py - line:54] appium pid is null
+[2018-12-01 23:50:45,635] [INFO] [localhost][test_appium.py - line:106] app测试开始!
+[2018-12-01 23:50:45,678] [INFO] [localhost][test_appium.py - line:54] appium pid is null
+[2018-12-01 23:50:45,678] [INFO] [localhost][test_appium.py - line:69] appium启动命令:appium --log /appium.log --session-override --udid 192.168.56.101:5555 -a  127.0.0.1 -p 4725
+[2018-12-01 23:50:59,653] [INFO] [localhost][test_appium.py - line:106] app测试开始!
+[2018-12-01 23:50:59,701] [INFO] [localhost][test_appium.py - line:54] appium pid is null
+[2018-12-01 23:50:59,702] [INFO] [localhost][test_appium.py - line:69] appium启动命令:appium --log /appium.log --session-override --udid 192.168.56.101:5555 -a  127.0.0.1 -p 4725
+[2018-12-01 23:51:14,933] [INFO] [localhost][test_appium.py - line:106] app测试开始!
+[2018-12-01 23:51:14,980] [INFO] [localhost][test_appium.py - line:54] appium pid is null
+[2018-12-01 23:51:14,981] [INFO] [localhost][test_appium.py - line:69] appium启动命令:appium --log /appium.log --session-override --udid 192.168.56.101:5555 -a  127.0.0.1 -p 4725
+[2018-12-01 23:51:19,122] [INFO] [localhost][test_appium.py - line:75] 启动appium中...
+[2018-12-01 23:51:19,123] [INFO] [localhost][test_appium.py - line:77] appium启动成功
+[2018-12-01 23:52:34,574] [INFO] [localhost][test_appium.py - line:89] app测试开始!
+[2018-12-01 23:52:34,651] [INFO] [localhost][test_appium.py - line:54] appium pid is null
+[2018-12-01 23:52:34,651] [INFO] [localhost][test_appium.py - line:69] appium启动命令:appium --log /appium.log --session-override --udid 192.168.56.101:5555 -a  127.0.0.1 -p 4725
+[2018-12-01 23:52:39,342] [INFO] [localhost][test_appium.py - line:75] 启动appium中...
+[2018-12-01 23:52:39,343] [INFO] [localhost][test_appium.py - line:77] appium启动成功
+[2018-12-01 23:55:52,758] [INFO] [localhost][test_appium.py - line:89] app测试开始!
+[2018-12-01 23:55:52,820] [INFO] [localhost][test_appium.py - line:54] appium pid is null
+[2018-12-01 23:55:52,820] [INFO] [localhost][test_appium.py - line:69] appium启动命令:appium --log /appium.log --session-override --udid 192.168.56.101:5555 -a  127.0.0.1 -p 4723
+[2018-12-01 23:55:57,110] [INFO] [localhost][test_appium.py - line:75] 启动appium中...
+[2018-12-01 23:55:57,111] [INFO] [localhost][test_appium.py - line:77] appium启动成功
+[2018-12-01 23:56:10,073] [INFO] [localhost][test_appium.py - line:89] app测试开始!
+[2018-12-01 23:56:10,115] [INFO] [localhost][test_appium.py - line:54] appium pid is null
+[2018-12-01 23:56:10,116] [INFO] [localhost][test_appium.py - line:69] appium启动命令:appium --log ./appium.log --session-override --udid 192.168.56.101:5555 -a  127.0.0.1 -p 4723
+[2018-12-01 23:56:14,295] [INFO] [localhost][test_appium.py - line:75] 启动appium中...
+[2018-12-01 23:56:14,297] [INFO] [localhost][test_appium.py - line:77] appium启动成功
+[2018-12-01 23:56:21,547] [INFO] [localhost][test_appium.py - line:92] 启动app中.....
+[2018-12-01 23:56:26,558] [INFO] [localhost][test_appium.py - line:123] 登录测试异常:'WebDriver' object has no attribute 'driver'
+[2018-12-01 23:56:26,626] [INFO] [localhost][test_appium.py - line:95] app测试结束!
+[2018-12-01 23:57:53,747] [INFO] [localhost][test_appium.py - line:88] app测试开始!
+[2018-12-01 23:57:53,869] [INFO] [localhost][test_appium.py - line:58] kill appium
+[2018-12-01 23:57:53,869] [INFO] [localhost][test_appium.py - line:69] appium启动命令:appium --log ./appium.log --session-override --udid 192.168.56.101:5555 -a  127.0.0.1 -p 4723
+[2018-12-01 23:57:57,968] [INFO] [localhost][test_appium.py - line:75] 启动appium中...
+[2018-12-01 23:57:57,969] [INFO] [localhost][test_appium.py - line:77] appium启动成功
+[2018-12-01 23:58:05,110] [INFO] [localhost][test_appium.py - line:91] 启动app中.....
+[2018-12-01 23:58:10,115] [INFO] [localhost][test_appium.py - line:123] 登录测试异常:'WebDriver' object has no attribute 'driver'
+[2018-12-01 23:58:10,195] [INFO] [localhost][test_appium.py - line:94] app测试结束!

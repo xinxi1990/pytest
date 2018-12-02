@@ -1,0 +1,32 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1543562286159" stop="1543562286168">
+  <name>test_demo</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1543562286159" status="passed" stop="1543562286163">
+      <name>test_zero_division</name>
+      <attachments>
+        <attachment source="f28aabab-ecff-43a3-8308-46363aca088d-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6821-MainThread"/>
+        <label name="host" value="bogon"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1543562286164" status="passed" stop="1543562286168">
+      <name>test_recursion_depth</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6821-MainThread"/>
+        <label name="host" value="bogon"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

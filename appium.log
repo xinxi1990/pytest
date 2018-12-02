@@ -1,0 +1,159 @@
+2018-12-01 16:32:01:750 - info: [Appium] Welcome to Appium v1.9.0 (REV 612b8c21be5cf33d5f094ae4340f05d42de4401e)
+2018-12-01 16:32:01:752 - info: [Appium] Non-default server args:
+2018-12-01 16:32:01:753 - info: [Appium]   address: 127.0.0.1
+2018-12-01 16:32:01:753 - info: [Appium]   sessionOverride: true
+2018-12-01 16:32:01:753 - info: [Appium]   log: ./appium.log
+2018-12-01 16:32:01:753 - info: [Appium]   udid: 192.168.56.101:5555
+2018-12-01 16:32:01:754 - warn: [Appium] Deprecated server args:
+2018-12-01 16:32:01:754 - warn: [Appium]   -U,--udid => --default-capabilities '{"udid":"192.168.56.101:5555"}'
+2018-12-01 16:32:01:755 - info: [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2018-12-01 16:32:01:755 - info: [Appium]   udid: 192.168.56.101:5555
+2018-12-01 16:32:01:793 - info: [Appium] Appium REST http interface listener started on 127.0.0.1:4723
+2018-12-01 16:32:02:795 - info: [HTTP] --> POST /wd/hub/session
+2018-12-01 16:32:02:795 - info: [HTTP] {"capabilities":{"alwaysMatch":{"appium:unicodeKeyboard":"true","appium:resetKeyboard":"true","appium:autoLaunch":"true","appium:appActivity":"com.luojilab.business.welcome.SplashActivity","appium:newCommandTimeout":120,"appium:appPackage":"com.luojilab.player","appium:platformVersion ":"7.0","appium:deviceName":"192.168.56.101:5555","platformName":"Android"},"firstMatch":[{}]},"desiredCapabilities":{"unicodeKeyboard":"true","deviceName":"192.168.56.101:5555","resetKeyboard":"true","autoLaunch":"true","platformVersion ":"7.0","newCommandTimeout":120,"appPackage":"com.luojilab.player","platformName":"Android","appActivity":"com.luojilab.business.welcome.SplashActivity"}}
+2018-12-01 16:32:02:797 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"unicodeKeyboard":"true","deviceName":"192.168.56.101:5555","resetKeyboard":"true","autoLaunch":"true","platformVersion ":"7.0","newCommandTimeout":120,"appPackage":"com.luojilab.player","platformName":"Android","appActivity":"com.luojilab.business.welcome.SplashActivity"},null,{"alwaysMatch":{"appium:unicodeKeyboard":"true","appium:resetKeyboard":"true","appium:autoLaunch":"true","appium:appActivity":"com.luojilab.business.welcome.SplashActivity","appium:newCommandTimeout":120,"appium:appPackage":"com.luojilab.player","appium:platformVersion ":"7.0","appium:deviceName":"192.168.56.101:5555","platformName":"Android"},"firstMatch":[{}]}]
+2018-12-01 16:32:02:798 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1543681922798 (00:32:02 GMT+0800 (CST))
+2018-12-01 16:32:02:801 - warn: [BaseDriver] The capabilities ["udid"] are not standard capabilities and should have an extension prefix
+2018-12-01 16:32:02:804 - warn: [BaseDriver] Boolean capability passed in as string. Functionality may be compromised.
+2018-12-01 16:32:02:806 - info: [Appium] Creating new AndroidDriver (v3.7.0) session
+2018-12-01 16:32:02:806 - info: [Appium] Capabilities:
+2018-12-01 16:32:02:806 - info: [Appium]   udid: 192.168.56.101:5555
+2018-12-01 16:32:02:806 - info: [Appium]   platformName: Android
+2018-12-01 16:32:02:807 - info: [Appium]   unicodeKeyboard: true
+2018-12-01 16:32:02:807 - info: [Appium]   resetKeyboard: true
+2018-12-01 16:32:02:807 - info: [Appium]   autoLaunch: true
+2018-12-01 16:32:02:807 - info: [Appium]   appActivity: com.luojilab.business.welcome.SplashActivity
+2018-12-01 16:32:02:807 - info: [Appium]   newCommandTimeout: 120
+2018-12-01 16:32:02:807 - info: [Appium]   appPackage: com.luojilab.player
+2018-12-01 16:32:02:807 - info: [Appium]   platformVersion : 7.0
+2018-12-01 16:32:02:807 - info: [Appium]   deviceName: 192.168.56.101:5555
+2018-12-01 16:32:02:812 - info: [debug] [BaseDriver] W3C capabilities {"alwaysMatch":{"appium:udi... and MJSONWP desired capabilities {"udid":"192.168.56.101:555... were provided
+2018-12-01 16:32:02:812 - info: [debug] [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"appium:udi...
+2018-12-01 16:32:02:813 - warn: [BaseDriver] Boolean capability passed in as string. Functionality may be compromised.
+2018-12-01 16:32:02:814 - warn: [BaseDriver] Boolean capability passed in as string. Functionality may be compromised.
+2018-12-01 16:32:02:814 - warn: [BaseDriver] Boolean capability passed in as string. Functionality may be compromised.
+2018-12-01 16:32:02:815 - warn: [BaseDriver] Capability 'autoLaunch' changed from string to boolean. This may cause unexpected behavior
+2018-12-01 16:32:02:816 - warn: [BaseDriver] Capability 'unicodeKeyboard' changed from string to boolean. This may cause unexpected behavior
+2018-12-01 16:32:02:816 - warn: [BaseDriver] Capability 'resetKeyboard' changed from string to boolean. This may cause unexpected behavior
+2018-12-01 16:32:02:818 - warn: [BaseDriver] The following capabilities were provided, but are not recognized by appium: platformVersion .
+2018-12-01 16:32:02:818 - info: [BaseDriver] Session created with session id: 17a4f9d8-4939-4752-8ad6-c9167eecf928
+2018-12-01 16:32:03:072 - info: [AndroidDriver] Java version is: 1.8.0_161
+2018-12-01 16:32:03:074 - info: [ADB] Checking whether adb is present
+2018-12-01 16:32:03:085 - info: [ADB] Found 15 'build-tools' folders under '/Users/xinxi/Library/Android/sdk' (newest first):
+2018-12-01 16:32:03:085 - info: [ADB]     /Users/xinxi/Library/Android/sdk/build-tools/28.0.3
+2018-12-01 16:32:03:085 - info: [ADB]     /Users/xinxi/Library/Android/sdk/build-tools/27.0.3
+2018-12-01 16:32:03:086 - info: [ADB]     /Users/xinxi/Library/Android/sdk/build-tools/27.0.1
+2018-12-01 16:32:03:086 - info: [ADB]     /Users/xinxi/Library/Android/sdk/build-tools/26.0.2
+2018-12-01 16:32:03:086 - info: [ADB]     /Users/xinxi/Library/Android/sdk/build-tools/26.0.1
+2018-12-01 16:32:03:086 - info: [ADB]     /Users/xinxi/Library/Android/sdk/build-tools/26.0.0
+2018-12-01 16:32:03:086 - info: [ADB]     /Users/xinxi/Library/Android/sdk/build-tools/25.0.2
+2018-12-01 16:32:03:086 - info: [ADB]     /Users/xinxi/Library/Android/sdk/build-tools/25.0.1
+2018-12-01 16:32:03:086 - info: [ADB]     /Users/xinxi/Library/Android/sdk/build-tools/25.0.0
+2018-12-01 16:32:03:086 - info: [ADB]     /Users/xinxi/Library/Android/sdk/build-tools/24.0.2
+2018-12-01 16:32:03:087 - info: [ADB]     /Users/xinxi/Library/Android/sdk/build-tools/23.0.3
+2018-12-01 16:32:03:087 - info: [ADB]     /Users/xinxi/Library/Android/sdk/build-tools/23.0.2
+2018-12-01 16:32:03:087 - info: [ADB]     /Users/xinxi/Library/Android/sdk/build-tools/23.0.1
+2018-12-01 16:32:03:087 - info: [ADB]     /Users/xinxi/Library/Android/sdk/build-tools/22.0.1
+2018-12-01 16:32:03:087 - info: [ADB]     /Users/xinxi/Library/Android/sdk/build-tools/21.1.2
+2018-12-01 16:32:03:088 - info: [ADB] Using adb from /Users/xinxi/Library/Android/sdk/platform-tools/adb
+2018-12-01 16:32:03:088 - info: [AndroidDriver] Retrieving device list
+2018-12-01 16:32:03:088 - info: [debug] [ADB] Trying to find a connected android device
+2018-12-01 16:32:03:089 - info: [debug] [ADB] Getting connected devices...
+2018-12-01 16:32:03:105 - info: [debug] [ADB] 1 device(s) connected
+2018-12-01 16:32:03:106 - info: [AndroidDriver] Using device: 192.168.56.101:5555
+2018-12-01 16:32:03:107 - info: [debug] [ADB] Setting device id to 192.168.56.101:5555
+2018-12-01 16:32:03:108 - info: [debug] [ADB] Running '/Users/xinxi/Library/Android/sdk/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 shell getprop ro.build.version.sdk'
+2018-12-01 16:32:03:129 - info: [debug] [ADB] Current device property 'ro.build.version.sdk': 24
+2018-12-01 16:32:03:129 - info: [debug] [ADB] Device API level: 24
+2018-12-01 16:32:03:129 - warn: [AndroidDriver] Consider setting 'automationName' capability to 'uiautomator2' on Android >= 6, since UIAutomator framework is not maintained anymore by the OS vendor.
+2018-12-01 16:32:03:130 - info: [AndroidDriver] App file was not listed, instead we're going to run com.luojilab.player directly on the device
+2018-12-01 16:32:03:130 - info: [debug] [AndroidDriver] Checking whether package is present on the device
+2018-12-01 16:32:03:130 - info: [debug] [ADB] Running '/Users/xinxi/Library/Android/sdk/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 shell pm list packages com.luojilab.player'
+2018-12-01 16:32:03:362 - info: [AndroidDriver] Starting Android session
+2018-12-01 16:32:03:363 - info: [debug] [ADB] Running '/Users/xinxi/Library/Android/sdk/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 wait-for-device'
+2018-12-01 16:32:03:383 - info: [debug] [ADB] Running '/Users/xinxi/Library/Android/sdk/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 shell echo ping'
+2018-12-01 16:32:03:405 - info: [debug] [AndroidDriver] Pushing settings apk to device...
+2018-12-01 16:32:03:407 - info: [debug] [ADB] Getting install status for io.appium.settings
+2018-12-01 16:32:03:407 - info: [debug] [ADB] Running '/Users/xinxi/Library/Android/sdk/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 shell pm list packages io.appium.settings'
+2018-12-01 16:32:03:697 - info: [debug] [ADB] App is installed
+2018-12-01 16:32:03:697 - info: [debug] [ADB] Getting package info for 'io.appium.settings'
+2018-12-01 16:32:03:698 - info: [debug] [ADB] Running '/Users/xinxi/Library/Android/sdk/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 shell dumpsys package io.appium.settings'
+2018-12-01 16:32:03:728 - info: [ADB] Checking whether aapt is present
+2018-12-01 16:32:03:730 - info: [ADB] Using aapt from /Users/xinxi/Library/Android/sdk/build-tools/28.0.3/aapt
+2018-12-01 16:32:03:768 - info: [debug] [ADB] The installed 'io.appium.settings' package does not require upgrade ('2.3.0' >= '2.3.0')
+2018-12-01 16:32:03:768 - info: [debug] [ADB] Running '/Users/xinxi/Library/Android/sdk/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 shell ps'
+2018-12-01 16:32:03:802 - info: [debug] [ADB] Device API level: 24
+2018-12-01 16:32:03:803 - info: [debug] [ADB] Running '/Users/xinxi/Library/Android/sdk/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 shell am start -W -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2018-12-01 16:32:04:852 - info: [debug] [ADB] Device API level: 24
+2018-12-01 16:32:04:853 - info: [debug] [ADB] Running '/Users/xinxi/Library/Android/sdk/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 shell appops set io.appium.settings android\:mock_location allow'
+2018-12-01 16:32:04:934 - warn: [AndroidDriver] setDeviceLanguageCountry requires language or country.
+2018-12-01 16:32:04:934 - warn: [AndroidDriver] Got language: 'null' and country: 'null'
+2018-12-01 16:32:04:935 - info: [debug] [Logcat] Starting logcat capture
+2018-12-01 16:32:04:980 - info: [debug] [AndroidDriver] Enabling Unicode keyboard support
+2018-12-01 16:32:04:980 - info: [debug] [AndroidDriver] Pushing unicode ime to device...
+2018-12-01 16:32:04:981 - info: [debug] [ADB] Running '/Users/xinxi/Library/Android/sdk/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 install /usr/local/lib/node_modules/appium/node_modules/appium-android-ime/bin/UnicodeIME-debug.apk'
+2018-12-01 16:32:05:223 - info: [debug] [ADB] Running '/Users/xinxi/Library/Android/sdk/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 install /usr/local/lib/node_modules/appium/node_modules/appium-android-ime/bin/UnicodeIME-debug.apk'
+2018-12-01 16:32:05:377 - info: [debug] [ADB] Application '/usr/local/lib/node_modules/appium/node_modules/appium-android-ime/bin/UnicodeIME-debug.apk' already installed. Continuing.
+2018-12-01 16:32:05:378 - info: [debug] [ADB] Running '/Users/xinxi/Library/Android/sdk/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 shell settings get secure default_input_method'
+2018-12-01 16:32:05:760 - info: [debug] [AndroidDriver] Unsetting previous IME io.appium.android.ime/.UnicodeIME
+2018-12-01 16:32:05:760 - info: [debug] [AndroidDriver] Setting IME to 'io.appium.android.ime/.UnicodeIME'
+2018-12-01 16:32:05:761 - info: [debug] [ADB] Running '/Users/xinxi/Library/Android/sdk/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 shell ime enable io.appium.android.ime/.UnicodeIME'
+2018-12-01 16:32:06:084 - info: [debug] [ADB] Running '/Users/xinxi/Library/Android/sdk/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 shell ime set io.appium.android.ime/.UnicodeIME'
+2018-12-01 16:32:06:381 - info: [debug] [AndroidDriver] Pushing unlock helper app to device...
+2018-12-01 16:32:06:381 - info: [debug] [ADB] Getting install status for io.appium.unlock
+2018-12-01 16:32:06:381 - info: [debug] [ADB] Running '/Users/xinxi/Library/Android/sdk/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 shell pm list packages io.appium.unlock'
+2018-12-01 16:32:06:620 - info: [debug] [ADB] App is installed
+2018-12-01 16:32:06:620 - info: [debug] [ADB] Getting package info for 'io.appium.unlock'
+2018-12-01 16:32:06:620 - info: [debug] [ADB] Running '/Users/xinxi/Library/Android/sdk/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 shell dumpsys package io.appium.unlock'
+2018-12-01 16:32:06:661 - info: [debug] [ADB] The installed 'io.appium.unlock' package does not require upgrade ('2.0.0' >= '2.0.0')
+2018-12-01 16:32:06:661 - info: [ADB] Getting device platform version
+2018-12-01 16:32:06:662 - info: [debug] [ADB] Running '/Users/xinxi/Library/Android/sdk/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 shell getprop ro.build.version.release'
+2018-12-01 16:32:06:683 - info: [debug] [ADB] Current device property 'ro.build.version.release': 7.0
+2018-12-01 16:32:06:684 - info: [debug] [ADB] Running '/Users/xinxi/Library/Android/sdk/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 shell wm size'
+2018-12-01 16:32:06:916 - info: [debug] [ADB] Running '/Users/xinxi/Library/Android/sdk/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 shell getprop ro.product.model'
+2018-12-01 16:32:06:937 - info: [debug] [ADB] Current device property 'ro.product.model': Google
+2018-12-01 16:32:06:938 - info: [debug] [ADB] Running '/Users/xinxi/Library/Android/sdk/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 shell getprop ro.product.manufacturer'
+2018-12-01 16:32:06:967 - info: [debug] [ADB] Current device property 'ro.product.manufacturer': Genymotion
+2018-12-01 16:32:06:968 - warn: [AndroidDriver] No app sent in, not parsing package/activity
+2018-12-01 16:32:06:968 - info: [debug] [AndroidDriver] No app capability. Assuming it is already on the device
+2018-12-01 16:32:06:969 - info: [debug] [ADB] Getting install status for com.luojilab.player
+2018-12-01 16:32:06:969 - info: [debug] [ADB] Running '/Users/xinxi/Library/Android/sdk/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 shell pm list packages com.luojilab.player'
+2018-12-01 16:32:07:282 - info: [debug] [ADB] App is installed
+2018-12-01 16:32:07:283 - info: [debug] [ADB] Running '/Users/xinxi/Library/Android/sdk/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 shell am force-stop com.luojilab.player'
+2018-12-01 16:32:07:626 - info: [debug] [ADB] Running '/Users/xinxi/Library/Android/sdk/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 shell pm clear com.luojilab.player'
+2018-12-01 16:32:07:904 - info: [debug] [AndroidDriver] Performed fast reset on the installed 'com.luojilab.player' application (stop and clear)
+2018-12-01 16:32:07:905 - info: [debug] [AndroidBootstrap] Watching for bootstrap disconnect
+2018-12-01 16:32:07:906 - info: [debug] [ADB] Forwarding system: 4724 to device: 4724
+2018-12-01 16:32:07:906 - info: [debug] [ADB] Running '/Users/xinxi/Library/Android/sdk/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 forward tcp\:4724 tcp\:4724'
+2018-12-01 16:32:07:922 - info: [debug] [UiAutomator] Starting UiAutomator
+2018-12-01 16:32:07:922 - info: [debug] [UiAutomator] Moving to state 'starting'
+2018-12-01 16:32:07:922 - info: [debug] [UiAutomator] Parsing uiautomator jar
+2018-12-01 16:32:07:923 - info: [debug] [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2018-12-01 16:32:07:923 - info: [debug] [ADB] Running '/Users/xinxi/Library/Android/sdk/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 push /usr/local/lib/node_modules/appium/node_modules/appium-android-bootstrap/bootstrap/bin/AppiumBootstrap.jar /data/local/tmp/'
+2018-12-01 16:32:07:963 - info: [debug] [ADB] Attempting to kill all uiautomator processes
+2018-12-01 16:32:07:964 - info: [debug] [ADB] Getting all processes with uiautomator
+2018-12-01 16:32:07:964 - info: [debug] [ADB] Running '/Users/xinxi/Library/Android/sdk/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 shell ps'
+2018-12-01 16:32:07:990 - info: [ADB] No uiautomator process found to kill, continuing...
+2018-12-01 16:32:07:991 - info: [debug] [UiAutomator] Starting UIAutomator
+2018-12-01 16:32:07:991 - info: [debug] [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","192.168.56.101:5555","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.luojilab.player","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+2018-12-01 16:32:08:242 - info: [debug] [UiAutomator] Moving to state 'online'
+2018-12-01 16:32:08:245 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+2018-12-01 16:32:08:249 - info: [AndroidBootstrap] Android bootstrap socket is now connected
+2018-12-01 16:32:08:250 - info: [debug] [ADB] Running '/Users/xinxi/Library/Android/sdk/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 shell dumpsys window'
+2018-12-01 16:32:08:253 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2018-12-01 16:32:08:277 - info: [AndroidDriver] Screen already unlocked, doing nothing
+2018-12-01 16:32:08:278 - info: [debug] [ADB] Device API level: 24
+2018-12-01 16:32:08:278 - info: [debug] [ADB] Running '/Users/xinxi/Library/Android/sdk/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 shell am start -W -n com.luojilab.player/com.luojilab.business.welcome.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2018-12-01 16:32:12:455 - info: [Appium] New AndroidDriver session created successfully, session 17a4f9d8-4939-4752-8ad6-c9167eecf928 added to master session list
+2018-12-01 16:32:12:456 - info: [debug] [BaseDriver] Event 'newSessionStarted' logged at 1543681932456 (00:32:12 GMT+0800 (CST))
+2018-12-01 16:32:12:459 - info: [debug] [W3C] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","udid":"192.168.56.101:5555","unicodeKeyboard":true,"resetKeyboard":true,"autoLaunch":true,"appActivity":"com.luojilab.business.welcome.SplashActivity","newCommandTimeout":120,"appPackage":"com.luojilab.player","platformVersion ":"7.0","deviceName":"192.168.56.101:5555"},"platformName":"Android","udid":"192.168.56.101:5555","unicodeKeyboard":true,"resetKeyboard":true,"autoLaunch":true,"appActivity":"com.luojilab.business.welcome.SplashActivity","newCommandTimeout":120,"appPackage":"com.luojilab.player","platformVersion ":"7.0","deviceName":"192.168.56.101:5555","deviceUDID":"192.168.56.101:5555","platformVersion":"7.0","deviceScreenSize":"1080x1920","deviceModel":"Google","deviceManufacturer":"Genymotion"}}
+2018-12-01 16:32:12:466 - info: [HTTP] <-- POST /wd/hub/session 200 9667 ms - 1024
+2018-12-01 16:32:12:466 - info: [HTTP] 
+2018-12-01 16:34:12:470 - warn: [BaseDriver] Shutting down because we waited 120 seconds for a command
+2018-12-01 16:34:12:496 - info: [debug] [AndroidDriver] Shutting down Android driver
+2018-12-01 16:34:12:508 - info: [debug] [AndroidDriver] Resetting IME to io.appium.android.ime/.UnicodeIME
+2018-12-01 16:34:12:509 - info: [debug] [ADB] Running '/Users/xinxi/Library/Android/sdk/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 shell ime set io.appium.android.ime/.UnicodeIME'
+2018-12-01 16:34:12:520 - error: uncaughtException: write EPIPE date=Sun Dec 02 2018 00:34:12 GMT+0800 (CST), pid=188, uid=501, gid=20, cwd=/Users/xinxi/PycharmProjects/pytest, execPath=/usr/local/bin/node, version=v8.12.0, argv=[/usr/local/bin/node, /usr/local/bin/appium, --log, ./appium.log, --session-override, --udid, 192.168.56.101:5555, -a, 127.0.0.1, -p, 4723], rss=29351936, heapTotal=91803648, heapUsed=83088568, external=162668, loadavg=[3.5703125, 3.17041015625, 2.76953125], uptime=192799, trace=[column=14, file=net.js, function=WriteWrap.afterWrite, line=868, method=afterWrite, native=false], stack=[Error: write EPIPE,     at WriteWrap.afterWrite (net.js:868:14)]
+2018-12-01 16:34:12:524 - warn: [Appium] Closing session, cause was 'New Command Timeout of 120 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+2018-12-01 16:34:12:524 - info: [Appium] Removing session 17a4f9d8-4939-4752-8ad6-c9167eecf928 from our master session list
+2018-12-01 16:34:12:525 - error: uncaughtException: write EPIPE date=Sun Dec 02 2018 00:34:12 GMT+0800 (CST), pid=188, uid=501, gid=20, cwd=/Users/xinxi/PycharmProjects/pytest, execPath=/usr/local/bin/node, version=v8.12.0, argv=[/usr/local/bin/node, /usr/local/bin/appium, --log, ./appium.log, --session-override, --udid, 192.168.56.101:5555, -a, 127.0.0.1, -p, 4723], rss=29585408, heapTotal=91803648, heapUsed=82747368, external=95300, loadavg=[3.5703125, 3.17041015625, 2.76953125], uptime=192799, trace=[column=14, file=net.js, function=WriteWrap.afterWrite, line=868, method=afterWrite, native=false], stack=[Error: write EPIPE,     at WriteWrap.afterWrite (net.js:868:14)]

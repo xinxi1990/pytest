@@ -1,0 +1,43 @@
+"Status","Name","Duration in ms","Description"
+"passed","test_parametrize.test_eval[3+5-8]","4","
+演示参数化多个参数
+"
+"passed","test_moredata.TestUserPasswordWithParam.test_user_password[user4]","6",""
+"passed","test_moredata.TestUserPasswordWithParam.test_user_password[user0]","6",""
+"passed","test_allure_report.TestUserPasswordWithParam.test_user_password[user1]","1","
+演示用allure生成报告
+"
+"failed","test_allure_report.TestUserPasswordWithParam.test_user_password[user2]","5","
+演示用allure生成报告
+"
+"passed","test_demo.test_recursion_depth","3",""
+"failed","test_moredata.TestUserPasswordWithParam.test_user_password[user2]","6",""
+"passed","test_moredata.TestUserPasswordWithParam.test_user_password[user1]","2",""
+"failed","test_parametrize.test_eval[6*9-42]","8","
+演示参数化多个参数
+"
+"passed","test_allure_report.TestUserPasswordWithParam.test_user_password[user4]","2","
+演示用allure生成报告
+"
+"failed","test_allure_report.TestUserPasswordWithParam.test_user_password[user3]","2","
+演示用allure生成报告
+"
+"passed","test_demo.test_zero_division","2",""
+"failed","test_sample.test_answer","5",""
+"failed","test_moredata.TestUserPasswordWithParam.test_user_password[user3]","4",""
+"passed","test_allure_report.TestUserPasswordWithParam.test_user_password[user0]","2","
+演示用allure生成报告
+"
+"passed","test_user_password.TestUserPassword.test_user_password","3",""
+"passed","test_fixture.TestBaiDu.test_search_0","5864","
+演示使用fixture实现,setup和teardown
+
+
+
+        这里的chrome_driver是在本模块中定义的fixture，这里输入
+        的参数是上面yield driver中返回的driver
+        "
+"failed","sample_test.test_answer","47",""
+"passed","test_parametrize.test_eval[2+4-6]","2","
+演示参数化多个参数
+"

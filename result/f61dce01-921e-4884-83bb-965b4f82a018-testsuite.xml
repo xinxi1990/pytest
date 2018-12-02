@@ -1,0 +1,28 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1543562286169" stop="1543562291917">
+  <description>
+演示使用fixture实现,setup和teardown
+</description>
+  <name>test_fixture</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1543562286169" status="passed" stop="1543562291917">
+      <description>
+        这里的chrome_driver是在本模块中定义的fixture，这里输入
+        的参数是上面yield driver中返回的driver
+        </description>
+      <name>TestBaiDu.test_search_0</name>
+      <attachments>
+        <attachment source="991b18ca-ece1-4697-b9cb-7d24a7c5535d-attachment.txt" title="Captured stdout setup" type="text/plain"/>
+        <attachment source="884e3632-c66c-4c80-ab52-5f3577692b2e-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6821-MainThread"/>
+        <label name="host" value="bogon"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

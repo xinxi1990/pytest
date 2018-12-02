@@ -1,0 +1,82 @@
+{
+  "uid" : "45ca281da97a407a",
+  "name" : "TestBaiDu.test_search_0",
+  "fullName" : "test_fixture.TestBaiDu.test_search_0",
+  "historyId" : "661c540e7aa26c8df65aec4bee597f",
+  "time" : {
+    "start" : 1543562414837,
+    "stop" : 1543562420701,
+    "duration" : 5864
+  },
+  "description" : "\n演示使用fixture实现,setup和teardown\n\n\n\n        这里的chrome_driver是在本模块中定义的fixture，这里输入\n        的参数是上面yield driver中返回的driver\n        ",
+  "descriptionHtml" : "<p>演示使用fixture实现,setup和teardown</p>\n<pre><code>    这里的chrome_driver是在本模块中定义的fixture，这里输入\n    的参数是上面yield driver中返回的driver\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5b8a042938b9da05",
+      "name" : "Captured stdout setup",
+      "source" : "5b8a042938b9da05.txt",
+      "type" : "text/plain",
+      "size" : 26
+    }, {
+      "uid" : "16278c081d328535",
+      "name" : "Captured stdout call",
+      "source" : "16278c081d328535.txt",
+      "type" : "text/plain",
+      "size" : 535
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "bogon"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "7298-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_fixture"
+  }, {
+    "name" : "testClass",
+    "value" : "test_fixture"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestBaiDu.test_search_0"
+  }, {
+    "name" : "package",
+    "value" : "test_fixture"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "45ca281da97a407a.json",
+  "parameterValues" : [ ]
+}

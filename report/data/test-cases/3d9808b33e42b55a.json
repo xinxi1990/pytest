@@ -1,0 +1,66 @@
+{
+  "uid" : "3d9808b33e42b55a",
+  "name" : "test_eval[6*9-42]",
+  "fullName" : "test_parametrize.test_eval[6*9-42]",
+  "historyId" : "c98529de99b5bbae5ab296dcf1af4f49",
+  "time" : {
+    "start" : 1543562292242,
+    "stop" : 1543562292253,
+    "duration" : 11
+  },
+  "description" : "\n演示参数化多个参数\n",
+  "descriptionHtml" : "<p>演示参数化多个参数</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 54 == 42\n +  where 54 = eval('6*9')",
+  "statusTrace" : "test_input = '6*9', expected = 42\n\n    @pytest.mark.parametrize(\"test_input,expected\", [\n        (\"3+5\", 8),\n        (\"2+4\", 6),\n        (\"6*9\", 42),\n    ])\n    def test_eval(test_input, expected):\n>       assert eval(test_input) == expected\nE       AssertionError: assert 54 == 42\nE        +  where 54 = eval('6*9')\n\ntest_parametrize.py:16: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "bogon"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "6821-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_parametrize"
+  }, {
+    "name" : "testClass",
+    "value" : "test_parametrize"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_eval[6*9-42]"
+  }, {
+    "name" : "package",
+    "value" : "test_parametrize"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3d9808b33e42b55a.json",
+  "parameterValues" : [ ]
+}

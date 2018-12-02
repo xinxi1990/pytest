@@ -1,0 +1,76 @@
+{
+  "uid" : "a79c603a4c3ce2eb",
+  "name" : "TestUserPasswordWithParam.test_user_password[user0]",
+  "fullName" : "test_allure_report.TestUserPasswordWithParam.test_user_password[user0]",
+  "historyId" : "61128d0677196f483a342d4438c22cea",
+  "time" : {
+    "start" : 1543562414808,
+    "stop" : 1543562414810,
+    "duration" : 2
+  },
+  "description" : "\n演示用allure生成报告\n",
+  "descriptionHtml" : "<p>演示用allure生成报告</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e2dbfbd8dc907a81",
+      "name" : "Captured stdout call",
+      "source" : "e2dbfbd8dc907a81.txt",
+      "type" : "text/plain",
+      "size" : 20
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "bogon"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "7298-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_allure_report"
+  }, {
+    "name" : "testClass",
+    "value" : "test_allure_report"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestUserPasswordWithParam.test_user_password[user0]"
+  }, {
+    "name" : "package",
+    "value" : "test_allure_report"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a79c603a4c3ce2eb.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,66 @@
+{
+  "uid" : "edfe01fdb2d1b2a7",
+  "name" : "test_answer",
+  "fullName" : "sample_test.test_answer",
+  "historyId" : "2a02e9c07aeb7846ba3bdeabb13e1af1",
+  "time" : {
+    "start" : 1543562286086,
+    "stop" : 1543562286134,
+    "duration" : 48
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 4 == 5\n +  where 4 = inc(3)",
+  "statusTrace" : "def test_answer():\n>       assert inc(3) == 5\nE       assert 4 == 5\nE        +  where 4 = inc(3)\n\nsample_test.py:10: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "bogon"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "6821-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "sample_test"
+  }, {
+    "name" : "testClass",
+    "value" : "sample_test"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_answer"
+  }, {
+    "name" : "package",
+    "value" : "sample_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "edfe01fdb2d1b2a7.json",
+  "parameterValues" : [ ]
+}
