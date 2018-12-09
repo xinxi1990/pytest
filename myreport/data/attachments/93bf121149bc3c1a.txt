@@ -1,0 +1,1 @@
+test_allure.py              14 INFO     ====test_2th=====

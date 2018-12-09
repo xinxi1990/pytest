@@ -1,0 +1,49 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1544338892802" stop="1544338892845">
+  <name>test_allure</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1544338892802" status="failed" stop="1544338892833">
+      <name>test_2th</name>
+      <failure>
+        <message>AssertionError: assert 1 == 2</message>
+        <stack-trace>@pytest.mark.flaky(reruns=5)
+    def test_2th():
+        logger.info('====test_2th=====')
+&gt;       assert 1 == 2
+E       assert 1 == 2
+
+test_allure.py:15: AssertionError</stack-trace>
+      </failure>
+      <attachments>
+        <attachment source="77d7b6e9-c958-4660-a1c9-2314dbacdbbb-attachment.txt" title="Captured log call" type="text/plain"/>
+        <attachment source="33bcaee6-15d0-401f-8184-9eca2f7cde34-attachment.txt" title="Captured log call" type="text/plain"/>
+        <attachment source="b5839127-ff96-4ed8-adf0-429bea22e164-attachment.txt" title="Captured log call" type="text/plain"/>
+        <attachment source="94e8a811-4de1-4e00-9a18-59aa64e0e70d-attachment.txt" title="Captured log call" type="text/plain"/>
+        <attachment source="aaf076bf-3872-49b2-9b6f-5459e85a6e82-attachment.txt" title="Captured log call" type="text/plain"/>
+        <attachment source="a1489048-4668-4724-82fc-b1c003bed4fa-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="54591-MainThread"/>
+        <label name="host" value="xinxideMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1544338892843" status="passed" stop="1544338892845">
+      <name>test_1th</name>
+      <attachments>
+        <attachment source="5f7ab279-4c6d-479b-aace-b22f375d84e9-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="54591-MainThread"/>
+        <label name="host" value="xinxideMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

@@ -1,1 +1,0 @@
-[{u'password': u'Iloverose', u'name': u'jack'}, {u'password': u'Ilovejack', u'name': u'rose'}, {u'password': u'password123', u'name': u'tom'}]

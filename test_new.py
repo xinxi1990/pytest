@@ -1,7 +1,6 @@
 
 
 import logging
-
 logging.basicConfig(level=logging.DEBUG)
 
 class TestNew():

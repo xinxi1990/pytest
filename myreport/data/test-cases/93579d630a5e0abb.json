@@ -1,0 +1,114 @@
+{
+  "uid" : "93579d630a5e0abb",
+  "name" : "test_2th",
+  "fullName" : "test_allure.test_2th",
+  "historyId" : "451d5b9a844f4fe132d443a24d9aa751",
+  "time" : {
+    "start" : 1544338892802,
+    "stop" : 1544338892833,
+    "duration" : 31
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 1 == 2",
+  "statusTrace" : "@pytest.mark.flaky(reruns=5)\n    def test_2th():\n        logger.info('====test_2th=====')\n>       assert 1 == 2\nE       assert 1 == 2\n\ntest_allure.py:15: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 1 == 2",
+    "statusTrace" : "@pytest.mark.flaky(reruns=5)\n    def test_2th():\n        logger.info('====test_2th=====')\n>       assert 1 == 2\nE       assert 1 == 2\n\ntest_allure.py:15: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7c5afebebab7a776",
+      "name" : "Captured log call",
+      "source" : "7c5afebebab7a776.txt",
+      "type" : "text/plain",
+      "size" : 57
+    }, {
+      "uid" : "33695df57f212b9e",
+      "name" : "Captured log call",
+      "source" : "33695df57f212b9e.txt",
+      "type" : "text/plain",
+      "size" : 57
+    }, {
+      "uid" : "3b01c9fead53142",
+      "name" : "Captured log call",
+      "source" : "3b01c9fead53142.txt",
+      "type" : "text/plain",
+      "size" : 57
+    }, {
+      "uid" : "93bf121149bc3c1a",
+      "name" : "Captured log call",
+      "source" : "93bf121149bc3c1a.txt",
+      "type" : "text/plain",
+      "size" : 57
+    }, {
+      "uid" : "f5b7efe3d392b2a2",
+      "name" : "Captured log call",
+      "source" : "f5b7efe3d392b2a2.txt",
+      "type" : "text/plain",
+      "size" : 57
+    }, {
+      "uid" : "8c33e42408fb6d84",
+      "name" : "Captured log call",
+      "source" : "8c33e42408fb6d84.txt",
+      "type" : "text/plain",
+      "size" : 57
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "xinxideMacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "54591-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_allure"
+  }, {
+    "name" : "testClass",
+    "value" : "test_allure"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_2th"
+  }, {
+    "name" : "package",
+    "value" : "test_allure"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "93579d630a5e0abb.json",
+  "parameterValues" : [ ]
+}

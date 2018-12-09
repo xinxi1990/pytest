@@ -1,0 +1,37 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "xinxideMacBook-Pro.local",
+    "children" : [ {
+      "name" : "54591-MainThread",
+      "children" : [ {
+        "name" : "test_2th",
+        "uid" : "93579d630a5e0abb",
+        "parentUid" : "7976ef6ceb852ad79aadd4d620004afa",
+        "status" : "failed",
+        "time" : {
+          "start" : 1544338892802,
+          "stop" : 1544338892833,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_1th",
+        "uid" : "8a7032bc8dce80ef",
+        "parentUid" : "7976ef6ceb852ad79aadd4d620004afa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1544338892843,
+          "stop" : 1544338892845,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7976ef6ceb852ad79aadd4d620004afa"
+    } ],
+    "uid" : "38e3e4fcaa6be984bb74130f47fd49e3"
+  } ]
+}

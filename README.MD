@@ -1,5 +1,5 @@
 # 简介
-pytest框架学习笔记
+pytest框架学习笔记<br>
 https://docs.pytest.org/en/latest/fixture.html#pytest-fixtures-explicit-modular-scalable
 
 # 安装
@@ -15,11 +15,12 @@ py.test -s test_new.py
 
 
 # allure报告
-```angular2html
+```
 命令:
 py.test --alluredir=reports
 allure generate reports
-
+allure generate reports --clean
+allure generate --clean reports -o myreport
 用火狐浏览器打开,chrome会404
 ```
 ![image](pytest_allure.png)
@@ -59,4 +60,6 @@ https://www.jianshu.com/p/cf64ff553cdb
 Pytest如何输出Log信息
 https://www.jianshu.com/p/9e26d2d37b6a
 
+pytest文档15-使用自定义标记mark
+https://www.jianshu.com/p/8d9d6c54faf0
 ```
