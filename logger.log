@@ -1,0 +1,4 @@
+INFO:root:this is unittest
+INFO:root:setUpClass
+INFO:unittest::setUpClass
+INFO:unittest::setUpClass
